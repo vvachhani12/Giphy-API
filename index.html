@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Animal Giphy</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron" id="buttons">
+
+        </div>
+        <div class="row">
+            <div class="col-lg-9" id="giphy">
+                
+            </div>
+            <div class="col-lg-3">
+                <form id="addAnimal">            
+                    <label for="animal-input">Add an Animal</label>
+                    <input type="text" id="animal-input">
+                    <br>                    
+                    <input class="btn btn-primary" id="add-animal" type="submit" value="Add an animal">
+                </form>
+            </div>
+        </div>
+        <div class="row" id="moreAnimal" style="display:none">
+            <input class="btn btn-primary" type="submit" value="Add More GIF's">
+        </div>
+    </div>
+
+
+    <script src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</body>
+</html>

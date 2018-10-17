@@ -1,0 +1,21 @@
+body {
+    background: lightsalmon;
+}
+
+button {
+    margin: 5px
+}
+
+input {
+    margin: 5px;
+}
+
+label {
+    margin: 5px;
+    font-weight: bold;
+    font-size: 25px; 
+}
+
+#moreAnimals {
+    display: unset;
+}
