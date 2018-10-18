@@ -35,7 +35,6 @@ $(document).ready(function(){
         function displayGIF(){
 
             console.log("style");
-            $("#moreAnimal").css("display", "unset");
 
             var animal = $(this).attr("data-name");
             var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=IgnqCFH5I79Pk4zMESYa8lxAZ1pWaiuJ&limit=10&q="+animal;
@@ -127,7 +126,5 @@ $(document).ready(function(){
             //console.log("new state after changing from still is "+$(this).attr("data-state"))
         }        
     });
-
-    $("#moreAnimal").on("click", displayGIF);
 
 });
